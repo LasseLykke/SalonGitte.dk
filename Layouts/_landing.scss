@@ -1,4 +1,8 @@
 .wrapper {
   height: 100vh;
-  background-color: var(--purple-10);
+  background-clip: var(--purple-10);
+  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
