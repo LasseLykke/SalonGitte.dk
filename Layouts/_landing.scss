@@ -1,6 +1,14 @@
-.wrapper {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.about,
+.tider {
+  margin: 20px;
+}
+
+.about {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+
+.tider {
+  grid-row-start: 2;
+  grid-column-start: 3;
 }
