@@ -3,6 +3,11 @@
   margin: 40px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .about {
   grid-row-start: 2;
   grid-column-start: 1;
