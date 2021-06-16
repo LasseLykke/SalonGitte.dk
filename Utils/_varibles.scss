@@ -1,15 +1,18 @@
 :root {
   --white-100: #ffffff;
+  --white-90: #f1f1f1;
   --white-80: #f9f9f9;
   --white-60: #e6e6e6;
 
   --dark-100: #000000;
   --dark-50: #333333;
 
-  --feature: #e4ab22;
-
   --purple-100: #b01eb2;
   --purple-80: #c445c6;
   --purple-10: #d988da;
   --purple-60: #f86cfa;
+
+  // Linear gradients
+  --linear-1: rgba(248, 108, 250, 94) 0%;
+  --linear-2: rgba(255, 255, 255, 1) 79%;
 }
