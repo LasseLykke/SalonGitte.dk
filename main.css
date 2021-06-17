@@ -127,7 +127,11 @@ h6,
   height: 100px;
   margin: 0 auto;
   padding-top: 30px;
-  -ms-grid-column: 2;
-      grid-column-start: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */
