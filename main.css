@@ -75,9 +75,8 @@ h6,
   font-size: 0.8rem;
 }
 
-.about,
-.tider {
-  margin: 40px;
+.header {
+  padding: 20px;
 }
 
 .grid-container {
@@ -85,20 +84,22 @@ h6,
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.about {
-  -ms-grid-row: 2;
-      grid-row-start: 2;
-  -ms-grid-column: 1;
-      grid-column-start: 1;
+.grid-container .about, .grid-container .tider {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 30ch;
 }
 
-.tider {
-  -ms-grid-row: 2;
-      grid-row-start: 2;
-  -ms-grid-column: 3;
-      grid-column-start: 3;
+.grid-container .socials {
+  background-color: pink;
 }
 
 .box-wrapper {
@@ -126,12 +127,16 @@ h6,
 .logo {
   height: 100px;
   margin: 0 auto;
-  padding-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.links {
+  height: 40px;
+  width: 40px;
 }
 /*# sourceMappingURL=main.css.map */

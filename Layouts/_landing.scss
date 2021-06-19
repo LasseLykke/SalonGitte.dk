@@ -1,19 +1,20 @@
-.about,
-.tider {
-  margin: 40px;
+.header {
+  padding: 20px;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+
+  .about, .tider {
+    align-self: start;
+    justify-self: center;
+    width: 30ch;
+  }
+
+  .socials {
+    background-color: pink;
+  }
 }
 
-.about {
-  grid-row-start: 2;
-  grid-column-start: 1;
-}
-
-.tider {
-  grid-row-start: 2;
-  grid-column-start: 3;
-}
