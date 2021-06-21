@@ -75,6 +75,14 @@ h6,
   font-size: 0.8rem;
 }
 
+a {
+  font-family: 'Inter', sans-serif;
+  color: var(--dark-50);
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1.75;
+}
+
 .header {
   padding: 20px;
 }
@@ -98,8 +106,16 @@ h6,
   width: 30ch;
 }
 
-.grid-container .socials {
-  background-color: pink;
+.socials {
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.socials span {
+  display: block;
+  padding: 0 20px;
 }
 
 .box-wrapper {
@@ -136,7 +152,8 @@ h6,
 }
 
 .links {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */

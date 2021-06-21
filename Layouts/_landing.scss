@@ -13,8 +13,18 @@
     width: 30ch;
   }
 
-  .socials {
-    background-color: pink;
+}
+
+.socials {
+  //background-color: pink;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+
+  span {
+    display: block;
+    padding: 0 20px;
   }
 }
 

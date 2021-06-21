@@ -49,3 +49,11 @@ h6,
 .text_small {
   font-size: 0.8rem;
 }
+
+a {
+  font-family: 'Inter', sans-serif;
+  color: var(--dark-50);
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1.75;
+}
