@@ -7,12 +7,16 @@
   --dark-50: #333333;
   --purple-100: #b01eb2;
   --purple-80: #c445c6;
-  --purple-10: #d988da;
   --purple-60: #f86cfa;
+  --purple-10: #d988da;
   --linear-1: rgba(248, 108, 250, 94) 0%;
   --linear-2: rgba(255, 255, 255, 1) 79%;
 }
 
+/*lazy load sep. elements in with delay*/
+/*Hover underline on h3 elements*/
+/*Pop-up click for desktops on call me*/
+/*Call me shekky effect*/
 html,
 body {
   margin: 0;
@@ -47,6 +51,7 @@ h5 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 1.3;
+  letter-spacing: -0.011em;
 }
 
 h1 {
@@ -113,6 +118,32 @@ a {
   -ms-grid-column-align: center;
       justify-self: center;
   width: 30ch;
+}
+
+@media only screen and (max-width: 900px) {
+  .grid-container .about, .grid-container .tider {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+.grid-container .about table, .grid-container .tider table {
+  padding-top: 15px;
+}
+
+.grid-container .about table td, .grid-container .tider table td {
+  padding: 2.5px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 900px) {
+  .grid-container .about table, .grid-container .tider table {
+    margin: 0 auto;
+    text-align: left;
+  }
+  .grid-container .about table td, .grid-container .tider table td {
+    padding-left: 20px;
+  }
 }
 
 .socials {
