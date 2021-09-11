@@ -12,13 +12,15 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .about, .tider {
+  .about,
+  .tider {
     align-self: start;
     justify-self: center;
     width: 30ch;
     @media only screen and (max-width: 900px) {
       text-align: center;
       margin: 0 auto;
+      padding-top: 30px;
     }
     table {
       padding-top: 15px;
@@ -29,7 +31,7 @@
       @media only screen and(max-width: 900px) {
         margin: 0 auto;
         text-align: left;
-        
+
         td {
           padding-left: 20px;
         }
@@ -37,7 +39,6 @@
     }
   }
 }
-
 
 .socials {
   //background-color: pink;

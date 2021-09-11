@@ -146,7 +146,8 @@ a {
   }
 }
 
-.grid-container .about, .grid-container .tider {
+.grid-container .about,
+.grid-container .tider {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
@@ -156,27 +157,33 @@ a {
 }
 
 @media only screen and (max-width: 900px) {
-  .grid-container .about, .grid-container .tider {
+  .grid-container .about,
+  .grid-container .tider {
     text-align: center;
     margin: 0 auto;
+    padding-top: 30px;
   }
 }
 
-.grid-container .about table, .grid-container .tider table {
+.grid-container .about table,
+.grid-container .tider table {
   padding-top: 15px;
 }
 
-.grid-container .about table td, .grid-container .tider table td {
+.grid-container .about table td,
+.grid-container .tider table td {
   padding: 2.5px;
   vertical-align: middle;
 }
 
 @media only screen and (max-width: 900px) {
-  .grid-container .about table, .grid-container .tider table {
+  .grid-container .about table,
+  .grid-container .tider table {
     margin: 0 auto;
     text-align: left;
   }
-  .grid-container .about table td, .grid-container .tider table td {
+  .grid-container .about table td,
+  .grid-container .tider table td {
     padding-left: 20px;
   }
 }
@@ -236,6 +243,25 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.profile {
+  width: 80px;
+  height: auto;
+  border-radius: 100%;
+  display: inline;
+  position: absolute;
+  left: 190px;
+  bottom: -20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+@media only screen and (max-width: 900px) {
+  .profile {
+    left: 50px;
+    bottom: 30px;
+  }
 }
 
 .links {
