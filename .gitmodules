@@ -1,0 +1,3 @@
+[submodule "salongitte.dk"]
+	path = salongitte.dk
+	url = https://github.com/LasseLykke/SalonGitte.dk.git
